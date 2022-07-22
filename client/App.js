@@ -1,15 +1,23 @@
-import React from 'react'
+import React from "react";
 
-import Navbar from './components/Navbar'
-import Routes from './Routes'
+import Navbar from "./components/Navbar";
+import Routes from "./Routes";
+import VTSCanvas from "./components/VTSCanvas";
+// import Whiteboard from "./components/Whiteboard";
+// import CountdownTimer from "./components/CountdownTimer";
+
+// import { Discussion } from "./components/Discussion";
 
 const App = () => {
+ 
+
   return (
-    <div>
+    <div id="app">
       <Navbar />
       <Routes />
+      <VTSCanvas />
     </div>
-  )
-}
+  );
+};
 
-export default App
+export default App;
