@@ -9,8 +9,6 @@ import VTSCanvas from "./components/VTSCanvas";
 // import { Discussion } from "./components/Discussion";
 
 const App = () => {
- 
-
   return (
     <div id="app">
       <Navbar />
